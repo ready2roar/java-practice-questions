@@ -1,0 +1,131 @@
+Questions: Arrays
+
+Here are 30 commonly asked array coding questions that often appear in coding interviews:
+Sure! Here are the problem statements along with example inputs and outputs for each of the 30 array coding questions:
+
+	1.	Two Sum:
+	•	Problem Statement: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+	•	Input: nums = [2, 7, 11, 15], target = 9
+	•	Output: [0, 1]
+	2.	Best Time to Buy and Sell Stock:
+	•	Problem Statement: Given an array prices where prices[i] is the price of a given stock on the ith day, maximize profit by choosing a day to buy one stock and  		choosing a different day in the future to sell that stock.
+	•	Input: prices = [7, 1, 5, 3, 6, 4]
+	•	Output: 5
+	3.	Maximum Subarray:
+	•	Problem Statement: Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+	•	Input: nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+	•	Output: 6
+	4.	Product of Array Except Self:
+	•	Problem Statement: Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except 				nums[i].
+	•	Input: nums = [1, 2, 3, 4]
+	•	Output: [24, 12, 8, 6]
+	5.	Maximum Product Subarray:
+	•	Problem Statement: Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
+	•	Input: nums = [2, 3, -2, 4]
+	•	Output: 6
+	6.	Find Minimum in Rotated Sorted Array:
+	•	Problem Statement: Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element.
+	•	Input: nums = [3, 4, 5, 1, 2]
+	•	Output: 1
+	7.	Search in Rotated Sorted Array:
+	•	Problem Statement: Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Search for a target value.
+	•	Input: nums = [4, 5, 6, 7, 0, 1, 2], target = 0
+	•	Output: 4
+	8.	3Sum:
+	•	Problem Statement: Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which 			gives the sum of zero.
+	•	Input: nums = [-1, 0, 1, 2, -1, -4]
+	•	Output: [[-1, -1, 2], [-1, 0, 1]]
+	9.	Container With Most Water:
+	•	Problem Statement: Given n non-negative integers a1, a2, ..., an where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the 			two endpoints of line i is at (i, ai) and (i, 0). Find two lines which together with x-axis forms a container, such that the container contains the most water.
+	•	Input: height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+	•	Output: 49
+	10.	Merge Intervals:
+	•	Problem Statement: Given a collection of intervals, merge all overlapping intervals.
+	•	Input: intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+	•	Output: [[1, 6], [8, 10], [15, 18]]
+	11.	Insert Interval:
+	•	Problem Statement: Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
+	•	Input: intervals = [[1, 3], [6, 9]], newInterval = [2, 5]
+	•	Output: [[1, 5], [6, 9]]
+	12.	Group Anagrams:
+	•	Problem Statement: Given an array of strings, group anagrams together.
+	•	Input: strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+	•	Output: [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
+	13.	Missing Number:
+	•	Problem Statement: Given an array containing n distinct numbers taken from 0, 1, 2, …, n, find the one that is missing from the array.
+	•	Input: nums = [3, 0, 1]
+	•	Output: 2
+	14.	Find All Numbers Disappeared in an Array:
+	•	Problem Statement: Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), find all the integers of 1 ≤ i ≤ n that do not appear in the array.
+	•	Input: nums = [4, 3, 2, 7, 8, 2, 3, 1]
+	•	Output: [5, 6]
+	15.	Find the Duplicate Number:
+	•	Problem Statement: Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive), prove that at least one duplicate number 		must exist. Assume that there is only one duplicate number.
+	•	Input: nums = [1, 3, 4, 2, 2]
+	•	Output: 2
+	16.	Top K Frequent Elements:
+	•	Problem Statement: Given a non-empty array of integers, return the k most frequent elements.
+	•	Input: nums = [1, 1, 1, 2, 2, 3], k = 2
+	•	Output: [1, 2]
+	17.	Rotate Array:
+	•	Problem Statement: Rotate the array to the right by k steps, where k is non-negative.
+	•	Input: nums = [1, 2, 3, 4, 5, 6, 7], k = 3
+	•	Output: [5, 6, 7, 1, 2, 3, 4]
+
+	18.	Longest Consecutive Sequence:
+	•	Problem Statement: Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+	•	Input: nums = [100, 4, 200, 1, 3, 2]
+	•	Output: 4
+	•	Explanation: The longest consecutive elements sequence is [1, 2, 3, 4].
+	19.	Subarray Sum Equals K:
+	•	Problem Statement: Given an array of integers and an integer k, find the number of subarrays whose sum equals k.
+	•	Input: nums = [1, 1, 1], k = 2
+	•	Output: 2
+	•	Explanation: The subarrays [1, 1] and [1, 1] both have sum equal to k.
+	20.	Minimum Size Subarray Sum:
+	•	Problem Statement: Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s.
+	•	Input: s = 7, nums = [2, 3, 1, 2, 4, 3]
+	•	Output: 2
+	•	Explanation: The subarray [4, 3] has the minimal length under the problem constraint.
+	21.	Search a 2D Matrix:
+	•	Problem Statement: Write an efficient algorithm that searches for a value in an m x n matrix.
+	•	Input: matrix = [[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 50]], target = 3
+	•	Output: true
+	•	Explanation: The target 3 is found in the matrix.
+	22.	Set Matrix Zeroes:
+	•	Problem Statement: Given a m x n matrix, if an element is 0, set its entire row and column to 0.
+	•	Input: matrix = [[1, 1, 1], [1, 0, 1], [1, 1, 1]]
+	•	Output: [[1, 0, 1], [0, 0, 0], [1, 0, 1]]
+	•	Explanation: The element at matrix[1][1] is 0, so its row and column are set to 0.
+	23.	Spiral Matrix:
+	•	Problem Statement: Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+	•	Input: matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+	•	Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+	24.	Spiral Matrix II:
+	•	Problem Statement: Given a positive integer n, generate an n x n matrix filled with elements from 1 to n^2 in spiral order.
+	•	Input: n = 3
+	•	Output: [[1, 2, 3], [8, 9, 4], [7, 6, 5]]
+	25.	Word Search:
+	•	Problem Statement: Given an m x n grid of characters board and a string word, return true if the word exists in the grid.
+	•	Input: board = [['A','B','C','E'], ['S','F','C','S'], ['A','D','E','E']], word = "ABCCED"
+	•	Output: true
+	26.	Longest Increasing Path in a Matrix:
+	•	Problem Statement: Given an m x n integers matrix, return the length of the longest increasing path.
+	•	Input: matrix = [[9,9,4], [6,6,8], [2,1,1]]
+	•	Output: 4
+	27.	Valid Sudoku:
+	•	Problem Statement: Determine if a 9 x 9 Sudoku board is valid.
+	•	Input: board = [ ['5','3','.','.','7','.','.','.','.'], ['6','.','.','1','9','5','.','.','.'], ...]
+	•	Output: true
+	28.	Sudoku Solver:
+	•	Problem Statement: Write a program to solve a Sudoku puzzle by filling the empty cells.
+	•	Input: board = [ ['5','3','.','.','7','.','.','.','.'], ['6','.','.','1','9','5','.','.','.'], ...]
+	•	Output: The solved board.
+	29.	Game of Life:
+	•	Problem Statement: Given a board with m by n cells, each cell has an initial state live (1) or dead (0), implement the Game of Life next state.
+	•	Input: board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
+	•	Output: The next state of the board.
+	30.	First Missing Positive:
+	•	Problem Statement: Given an unsorted integer array, find the smallest missing positive integer.
+	•	Input: nums = [1,2,0]
+	•	Output: 3

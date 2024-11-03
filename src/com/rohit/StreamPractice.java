@@ -22,6 +22,12 @@ public class StreamPractice {
     public static void main(String[] args) {
 
 
+        Map<String,Integer> map = new HashMap<>();
+
+        map.put("a2",map.getOrDefault("a1" , 0 ) + 1);
+
+
+
         List<Product> productsList = new ArrayList<Product>();
         //Adding Products
         productsList.add(new Product(1,"HP Laptop",25000f));
@@ -37,6 +43,7 @@ public class StreamPractice {
 
         // max() method to get max Product price
         Product productA = productsList.stream().max((product1, product2)->product1.price > product2.price ? 1: -1).get();
+
         System.out.println(productA.price);
         // min() method to get min Product price
         Product productB = productsList.stream().min((product1, product2)->product1.price > product2.price ? 1: -1).get();

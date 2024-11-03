@@ -15,7 +15,7 @@ public class ReverseSttring {
 //        System.out.println(a);
 //    }
 
-
+//
 //    public static void main(String[] args) {
 //        String s = "super man bat man spider man";
 //        int count;
@@ -84,31 +84,31 @@ public class ReverseSttring {
 //
 //    }
 
-//    public static void main(String[] args) {
-//
-//        String s = "asdfgrdsadf" ;
-//
-//        HashMap<Character, Integer> hashMap = new HashMap<>();
-//
-//        for (int i = 0; i < s.length(); i++) {
-//            if(hashMap.containsKey(s.charAt(i))) {
-//
-//                hashMap.put(s.charAt(i),hashMap.get(s.charAt(i)) +1);
-//            }
-//            else {
-//                hashMap.put(s.charAt(i),1);
-//            }
-//
-//        }
-//
-//        for (char i : hashMap.keySet()) {
-//            if(hashMap.get(i) > 1) {
-//                System.out.println(i +" " +hashMap.get(i));
-//            }
-//
-//        }
-//
-//    }
+    public static void main(String[] args) {
+
+        String s = "asdfgrdsadf" ;
+
+        HashMap<Character, Integer> hashMap = new HashMap<>();
+
+        for (int i = 0; i < s.length(); i++) {
+            if(hashMap.containsKey(s.charAt(i))) {
+
+                hashMap.put(s.charAt(i),hashMap.get(s.charAt(i)) +1);
+            }
+            else {
+                hashMap.put(s.charAt(i),1);
+            }
+
+        }
+
+        for (char i : hashMap.keySet()) {
+            if(hashMap.get(i) > 1) {
+                System.out.println(i +" " +hashMap.get(i));
+            }
+
+        }
+
+    }
 
 
 //    public static void main(String[] args) {
@@ -188,33 +188,33 @@ public class ReverseSttring {
 //        else
 //            return (n * factorial(n-1));
 //    }
-
-    static void removeDups(int[] a, int n)
-    {
-
-        // Hash map which will store the
-        // elements which has appeared previously.
-        HashMap<Integer, Boolean> mp = new HashMap<>();
-
-        for (int i = 0; i < n; ++i) {
-
-            // Print the element if it is not
-            // present there in the hash map
-            // and Insert the element in the hash map
-            if (mp.get(a[i]) == null)
-            {
-                System.out.print(a[i] + " ");
-                mp.put(a[i], true);
-            }
-        }
-    }
-    public static void main(String[] args)
-    {
-        int[] arr = { 1, 2, 5, 1, 7, 2, 4, 2 };
-
-        int n = arr.length;
-        removeDups(arr, n);
-    }
+//
+//    static void removeDups(int[] a, int n)
+//    {
+//
+//        // Hash map which will store the
+//        // elements which has appeared previously.
+//        HashMap<Integer, Boolean> mp = new HashMap<>();
+//
+//        for (int i = 0; i < n; ++i) {
+//
+//            // Print the element if it is not
+//            // present there in the hash map
+//            // and Insert the element in the hash map
+//            if (mp.get(a[i]) == null)
+//            {
+//                System.out.print(a[i] + " ");
+//                mp.put(a[i], true);
+//            }
+//        }
+//    }
+//    public static void main(String[] args)
+//    {
+//        int[] arr = { 1, 2, 5, 1, 7, 2, 4, 2 };
+//
+//        int n = arr.length;
+//        removeDups(arr, n);
+//    }
 
 
 }

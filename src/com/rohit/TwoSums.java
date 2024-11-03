@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class TwoSums {
     public static void main(String[] args) {
-      int[] nums = {3,2,4};
+      int[] nums = {3,1,4,33,2,11};
        int target = 6;
 
         int[] a = TwoSums.twoSum(nums,target);
@@ -31,7 +31,7 @@ public class TwoSums {
         HashMap<Integer,Integer> hashMap = new HashMap<>();
 
         for(int i= 0; i< nums.length; i++) {
-            int complement = target - nums[i];
+            int complement = target - nums[i]; //9 - 8
             if( hashMap.containsKey(complement)) {
                 return new int[] {
                         hashMap.get(complement), i
